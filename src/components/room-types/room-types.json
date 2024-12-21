@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_room_types_room_types",
+  "info": {
+    "displayName": "room_types",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "size": {
+      "type": "biginteger"
+    },
+    "bed_type": {
+      "type": "string"
+    },
+    "max_occupancy": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "available_rooms": {
+      "type": "integer"
+    },
+    "amenities": {
+      "type": "json"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
